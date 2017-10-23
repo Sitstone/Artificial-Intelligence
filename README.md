@@ -1,9 +1,9 @@
 # Artificial-Intelligence
 # Classic Algorithms in Artificial Intelligence
----
+
 
 ## Project 1:
----
+
 ### Introduction:
 
 The problem is a variant of 8-Queens which is a typical case of the search problem. This project implements three classic algorithms: Breadth First Search(BFS), Depth First Search(DFS) and Simulated Annealing(SA) to give a solution of the problem.
@@ -47,15 +47,13 @@ OK
 00010000  
 
 ## Project 2:
----
 ### Introduction:
 Game play is a important topic in AI. For many ordered games which means the next state depends on the current state, AI can utilize efficient algorithm to predict further steps(states) based on the current one, and then it can get a smarter move via its "prediction". Mini-max algorithm with alpha-beta pruning is one of the algorithms that can be used into this game playing. This project implements Mini-max algorithm for the game *The Fruit Rage!* 
 
 ### Description:
 At the beginning of each game, all cells are filled with fruits. Players play in turn and can pick a cell of the box in their own turn and claim all fruit of the same type, in all cells that are connected to the selected cell through horizontal and vertical paths. For each selection or move the agent is rewarded a numeric value which is the square of the number of fruits claimed in that move. Once an agent picks the fruits from the cells, their empty place will be filled with other fruits on top of them (which fall down due to gravity), if any. In this game, no fruit is added during game play. Hence, players play until all fruits have been claimed.
 
-Example
----
+#### Example:
 ![fruit_move](./Project_2/fruit_move.png)
 
 ### Input:
